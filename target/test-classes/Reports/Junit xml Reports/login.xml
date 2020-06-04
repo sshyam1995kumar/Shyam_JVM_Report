@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="0.10123">
+<testcase classname="To validate FB Login Page" name="To verify user can login with valid credentials in FB" time="0.060616">
+<system-out><![CDATA[Given User enter FB page....................................................passed
+When User Enter FB valid Username and valid Password and click login button.passed
+Then User logged into FB account............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate FB Login Page" name="To verify user can login with invalid credentials in FB" time="0.00793">
+<system-out><![CDATA[Given User enter FB page....................................................passed
+When User Enter FB invalid Username and invalid Password and click login button.passed
+Then User logged into FB invalid credentials page...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate FB Login Page" name="To verify user can login with valid username and invalid password in FB" time="0.007287">
+<system-out><![CDATA[Given User enter FB page....................................................passed
+When User Enter FB valid Username and invalid Password and click login button.passed
+Then User logged into FB invalid credentials page...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate Amazon Login Page" name="To verify user can login with valid credentials in Amazon" time="0.012608">
+<system-out><![CDATA[Given User enter Amazon page................................................passed
+When User Enter Amazon valid Username and valid Password and click login button.passed
+Then Verify User logged into Amazon account.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate Amazon Login Page" name="To verify user can login with invalid credentials in Amazon" time="0.007433">
+<system-out><![CDATA[Given User enter Amazon page................................................passed
+When User Enter Amazon invalid Username and invalid Password and click login button.passed
+Then Verify User logged into Amazon invalid Credentials page................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate Amazon Login Page" name="To verify user can login with valid username and invalid password in Amazon" time="0.005356">
+<system-out><![CDATA[Given User enter Amazon page................................................passed
+When User Enter Amazon valid Username and invalid Password and click login button.passed
+Then Verify User logged into Amazon invalid Credentials page................passed
+]]></system-out>
+</testcase>
+</testsuite>

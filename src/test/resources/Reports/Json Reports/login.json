@@ -1,0 +1,647 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3968300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter FB page",
+            "match": {
+              "location": "StepDefinition.user_enter_FB_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-04T01:52:44.687Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6026000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserLaunch1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 290500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserLaunch2()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "To verify user can login with valid credentials in FB",
+        "description": "",
+        "id": "to-validate-fb-login-page;to-verify-user-can-login-with-valid-credentials-in-fb",
+        "after": [
+          {
+            "result": {
+              "duration": 198200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.quitBrowser1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 215400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.quitBrowser2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3442900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Enter FB valid Username and valid Password and click login button",
+            "match": {
+              "location": "StepDefinition.user_Enter_FB_valid_Username_and_valid_Password_and_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 758100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User logged into FB account",
+            "match": {
+              "location": "StepDefinition.user_logged_into_FB_account()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F"
+          },
+          {
+            "name": "@F1"
+          },
+          {
+            "name": "@A"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 867300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter FB page",
+            "match": {
+              "location": "StepDefinition.user_enter_FB_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-04T01:52:44.751Z",
+        "before": [
+          {
+            "result": {
+              "duration": 150100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserLaunch3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 125500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserLaunch1()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To verify user can login with invalid credentials in FB",
+        "description": "",
+        "id": "to-validate-fb-login-page;to-verify-user-can-login-with-invalid-credentials-in-fb",
+        "after": [
+          {
+            "result": {
+              "duration": 90500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.quitBrowser1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 72600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.quitBrowser3()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1880300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Enter FB invalid Username and invalid Password and click login button",
+            "match": {
+              "location": "StepDefinition.user_Enter_FB_invalid_Username_and_invalid_Password_and_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 434600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User logged into FB invalid credentials page",
+            "match": {
+              "location": "StepDefinition.user_logged_into_FB_invalid_credentials_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F"
+          },
+          {
+            "name": "@F1"
+          },
+          {
+            "name": "@B"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1473300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter FB page",
+            "match": {
+              "location": "StepDefinition.user_enter_FB_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-04T01:52:44.760Z",
+        "before": [
+          {
+            "result": {
+              "duration": 165000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserLaunch1()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "To verify user can login with valid username and invalid password in FB",
+        "description": "",
+        "id": "to-validate-fb-login-page;to-verify-user-can-login-with-valid-username-and-invalid-password-in-fb",
+        "after": [
+          {
+            "result": {
+              "duration": 250300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.quitBrowser1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1763500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User Enter FB valid Username and invalid Password and click login button",
+            "match": {
+              "location": "StepDefinition.user_Enter_FB_valid_Username_and_invalid_Password_and_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 678300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User logged into FB invalid credentials page",
+            "match": {
+              "location": "StepDefinition.user_logged_into_FB_invalid_credentials_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F"
+          },
+          {
+            "name": "@F1"
+          },
+          {
+            "name": "@C"
+          }
+        ]
+      }
+    ],
+    "name": "To validate FB Login Page",
+    "description": "",
+    "id": "to-validate-fb-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature_Files/PGM_A.feature",
+    "tags": [
+      {
+        "name": "@F",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@F1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 4
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 449400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter Amazon page",
+            "match": {
+              "location": "StepDefinition.user_enter_Amazon_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-04T01:52:44.768Z",
+        "before": [
+          {
+            "result": {
+              "duration": 189900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserLaunch1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 118000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserLaunch2()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "To verify user can login with valid credentials in Amazon",
+        "description": "",
+        "id": "to-validate-amazon-login-page;to-verify-user-can-login-with-valid-credentials-in-amazon",
+        "after": [
+          {
+            "result": {
+              "duration": 110600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.quitBrowser1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 47100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.quitBrowser2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2126600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Enter Amazon valid Username and valid Password and click login button",
+            "match": {
+              "location": "StepDefinition.user_Enter_Amazon_valid_Username_and_valid_Password_and_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 303000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify User logged into Amazon account",
+            "match": {
+              "location": "StepDefinition.verify_User_logged_into_Amazon_account()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F1"
+          },
+          {
+            "name": "@A"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 644300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter Amazon page",
+            "match": {
+              "location": "StepDefinition.user_enter_Amazon_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-04T01:52:44.782Z",
+        "before": [
+          {
+            "result": {
+              "duration": 245600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserLaunch3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 135900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserLaunch1()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To verify user can login with invalid credentials in Amazon",
+        "description": "",
+        "id": "to-validate-amazon-login-page;to-verify-user-can-login-with-invalid-credentials-in-amazon",
+        "after": [
+          {
+            "result": {
+              "duration": 203700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.quitBrowser1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 150000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.quitBrowser3()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1480600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Enter Amazon invalid Username and invalid Password and click login button",
+            "match": {
+              "location": "StepDefinition.user_Enter_Amazon_invalid_Username_and_invalid_Password_and_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 557200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify User logged into Amazon invalid Credentials page",
+            "match": {
+              "location": "StepDefinition.verify_User_logged_into_Amazon_invalid_Credentials_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F1"
+          },
+          {
+            "name": "@B"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 477600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter Amazon page",
+            "match": {
+              "location": "StepDefinition.user_enter_Amazon_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-04T01:52:44.790Z",
+        "before": [
+          {
+            "result": {
+              "duration": 116600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserLaunch1()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "To verify user can login with valid username and invalid password in Amazon",
+        "description": "",
+        "id": "to-validate-amazon-login-page;to-verify-user-can-login-with-valid-username-and-invalid-password-in-amazon",
+        "after": [
+          {
+            "result": {
+              "duration": 139300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.quitBrowser1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1513200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User Enter Amazon valid Username and invalid Password and click login button",
+            "match": {
+              "location": "StepDefinition.user_Enter_Amazon_valid_Username_and_invalid_Password_and_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 592200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify User logged into Amazon invalid Credentials page",
+            "match": {
+              "location": "StepDefinition.verify_User_logged_into_Amazon_invalid_Credentials_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F1"
+          },
+          {
+            "name": "@C"
+          }
+        ]
+      }
+    ],
+    "name": "To validate Amazon Login Page",
+    "description": "",
+    "id": "to-validate-amazon-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature_Files/PGM_B.feature",
+    "tags": [
+      {
+        "name": "@F1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
